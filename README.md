@@ -1,6 +1,6 @@
 ### Hello! In this document you will find all the information you need about interactive iPad displays in the exhibits at The Warhol!
-This document will be split up into the following sections:
 
+This document will be split up into the following sections:
     Credits
     Introduction
     Things to Note
@@ -11,11 +11,11 @@ This document will be split up into the following sections:
     
 Thanks for reading! 
 
-Credits
+#### Credits
     Sebastian Tschan for the blueimp plugin
     The swipe implementation is based on code from the Swipe library.
     
-Introduction:
+#### Introduction:
     This gallery implementation is built of three key parts. A php webpage, a gallery plugin (blueimp) and a full-screen browser (frameless).
     
     The base webpage code file is template.php. This is the document that should be opened, resaved and edited under a new name anytime a new gallery is needed. It is fully commented with what-does-what and should be read through thoroughly before making changes. The code looks for a folder in the same directory as the .php file as specified by you on the line $dirlist = getFileList("template_photos"). It takes all files (folder should only contain IMAGE files: .jpeg, .png, .tiff, .svg) and formats them in a way that blueimp can understand.
@@ -42,7 +42,7 @@ Introduction:
         The galleries auto refresh every two hours to prevent a timeout bug that we ran into in early stages; don't worry if you see the page reloading every now and again. 
         
 
-Things to Note:
+#### Things to Note:
     The iPads need to be in Guided Access with Restrictions ON in order to prevent visitors from navigating elsewhere.
     
     The galleries live at exhibitions.warhol.org/galleries/FILE_NAME.php.
@@ -50,7 +50,7 @@ Things to Note:
     The iPads need to be up-to-date on software and plugged in at all times. Otherwise they start crashing, rebooting, and dying. This causes Frameless to quit or the iPad to require a password to sign back in.
     
 
-Troubleshooting iPads at the museum:
+#### Troubleshooting iPads at the museum:
     We've had surprisingly few issues with the Page/Plugin/Frameless combo but here's what we have experienced.
     
     Page timeout leaves blank white screen? (FIXED)
@@ -73,10 +73,10 @@ Troubleshooting iPads at the museum:
         3. Power off then power on iPad
     
         
-Archiving    
+#### Archiving    
     Old galleries (still working, just no longer in use) should be moved to the Archive directory in the /galleries root folder. Place BOTH the OLD_FILE_NAME.php and the OLD_IMAGE_FOLDER in the /galleries/archive directory on the FTP Server.
 
-Resources:
+#### Resources:
     https://github.com/blueimp/Gallery
     https://stackoverflow.com/
     https://www.w3schools.com/pHP/default.asp
