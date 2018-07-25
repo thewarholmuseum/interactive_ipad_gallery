@@ -12,8 +12,10 @@ This document will be split up into the following sections:
 Thanks for reading! 
 
 #### Credits
-    Sebastian Tschan for the blueimp plugin
-    The swipe implementation is based on code from the Swipe library.
+
+      Sebastian Tschan for the blueimp plugin
+   
+      The swipe implementation is based on code from the Swipe library.
     
 #### Introduction:
     This gallery implementation is built of three key parts. A php webpage, a gallery plugin (blueimp) and a full-screen browser (frameless).
