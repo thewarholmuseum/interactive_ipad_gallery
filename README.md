@@ -1,4 +1,4 @@
-Hello! In this document you will find all the information you need about interactive iPad displays in the exhibits at The Warhol!
+### Hello! In this document you will find all the information you need about interactive iPad displays in the exhibits at The Warhol!
 This document will be split up into the following sections:
 
     Credits
